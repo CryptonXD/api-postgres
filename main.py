@@ -23,8 +23,8 @@ async def startup():
 
 
 
-@app.get("/behruz")
-async def behruz():
+@app.get("/cryp")
+async def cryp():
     return {"message": "Hello World"}
 
 
